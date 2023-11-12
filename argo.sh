@@ -198,17 +198,9 @@ argoCert() {
 menu() {
 	clear
 	checkStatus
-	red "=================================="
 	echo "                           "
-	red "  CloudFlare Argo Tunnel一键脚本   "
-	red "          by llggll.com           "
+	yellow  "==========CloudFlare Argo Tunnel一键脚本=========="
 	echo "                           "
-	red "  Site: https://www.llggll.com  "
-	echo "                           "
-	red "=================================="
-	echo "            "
-	yellow "今日运行次数：$TODAY   总共运行次数：$TOTAL"
-	echo "            "
 	green "CloudFlared 客户端状态：$cloudflaredStatus"
 	green "账户登录状态：$loginStatus"
 	echo "            "
